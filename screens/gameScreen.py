@@ -82,6 +82,9 @@ class gameScreen:
                 self.fireball.rect.x = p.rect.x + 6.5
                 self.fireball.rect.y = p.rect.y + 5
                 self.fireball.shoot = True
+        
+        if keys[pygame.K_UP] and (p.ground or p.onPipe):
+            p.jumping = True
 
     def logic(self, p, m, w, rb):
         """self correcting map position"""
