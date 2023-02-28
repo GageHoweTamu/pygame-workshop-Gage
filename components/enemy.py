@@ -29,7 +29,7 @@ class Enemy(pygame.sprite.Sprite):
 
     def fall(self):
         self.dead = True
-        self.rect.y += 1
+        self.rect.y += 0
         self.image = pygame.image.load('assets/enemy_dead.png')
         if self.rect.y == 1000:
             self.dead = False
@@ -54,4 +54,3 @@ def generateEnemies(res):
         Enemy((2735, res[1])),
         Enemy((2355, res[1])),
         ]
-

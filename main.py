@@ -43,7 +43,7 @@ while not done:
     '''If not on start or instruction screen, gameplay screen'''
     if gameState:
         # resets the screen to blue to it covers old sprite image
-        screen.fill((107, 140, 255))
+        screen.fill((80, 0, 0))
         game_screen.run()
 
         # create mini gameover screen
