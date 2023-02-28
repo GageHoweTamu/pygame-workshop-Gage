@@ -5,4 +5,4 @@ Worked on this game in an Aggie Coding Club meeting where we covered classes and
 
 We used a basic code template and sprites were provided... But I ended up changing most of them to Among Us. More details later
 
-![Gif](https://github.com/GageHoweTamu/pygame-workshop-Gage/New.gif "Gif2")
+![Gif]([https://github.com/GageHoweTamu/pygame-workshop-Gage/New.gif](https://github.com/GageHoweTamu/pygame-workshop-Gage/blob/master/New.gif) "Gif2")
